@@ -37,11 +37,7 @@
 		A007C5C51A0F359100DCFE72 /* SHBaseNC.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C56C1A0F359100DCFE72 /* SHBaseNC.m */; };
 		A007C5C61A0F359100DCFE72 /* SHBaseTB.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C56E1A0F359100DCFE72 /* SHBaseTB.m */; };
 		A007C5C71A0F359100DCFE72 /* SHBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5701A0F359100DCFE72 /* SHBaseVC.m */; };
-		A007C5D11A0F359100DCFE72 /* KDTestCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5921A0F359100DCFE72 /* KDTestCommand.m */; };
-		A007C5D21A0F359100DCFE72 /* WSBaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5941A0F359100DCFE72 /* WSBaseCommand.m */; };
 		A007C5D31A0F359100DCFE72 /* SHLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5981A0F359100DCFE72 /* SHLogManager.m */; };
-		A007C5D41A0F359100DCFE72 /* AFHTTPRequestOperation+QMEX.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C59B1A0F359100DCFE72 /* AFHTTPRequestOperation+QMEX.m */; };
-		A007C5D51A0F359100DCFE72 /* SHNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C59D1A0F359100DCFE72 /* SHNetworkManager.m */; };
 		A007C5D61A0F359100DCFE72 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A007C59F1A0F359100DCFE72 /* TemplateIcon2x.png */; };
 		A007C5D71A0F359100DCFE72 /* SHGlobalValue.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5A31A0F359100DCFE72 /* SHGlobalValue.m */; };
 		A007C5D81A0F359100DCFE72 /* SHImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5A51A0F359100DCFE72 /* SHImageManager.m */; };
@@ -53,6 +49,10 @@
 		A007C5F01A0F3CA300DCFE72 /* SHHotVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5EF1A0F3CA300DCFE72 /* SHHotVC.m */; };
 		A007C5F31A0F3CAC00DCFE72 /* SHMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5F21A0F3CAC00DCFE72 /* SHMeVC.m */; };
 		A007C5F71A0F44D200DCFE72 /* SHShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5F61A0F44D200DCFE72 /* SHShareVC.m */; };
+		A007C5FA1A0F50D600DCFE72 /* SHDataPort.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5F91A0F50D600DCFE72 /* SHDataPort.m */; };
+		A09BE5761A0F536D003CBACE /* SMPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A09BE5731A0F536D003CBACE /* SMPageControl.m */; };
+		A09BE5771A0F536D003CBACE /* SHCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A09BE5751A0F536D003CBACE /* SHCycleScrollView.m */; };
+		A09BE57A1A0F539E003CBACE /* UIImageView+SHWebImageAndCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A09BE5791A0F539E003CBACE /* UIImageView+SHWebImageAndCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,17 +131,9 @@
 		A007C56E1A0F359100DCFE72 /* SHBaseTB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBaseTB.m; sourceTree = "<group>"; };
 		A007C56F1A0F359100DCFE72 /* SHBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBaseVC.h; sourceTree = "<group>"; };
 		A007C5701A0F359100DCFE72 /* SHBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBaseVC.m; sourceTree = "<group>"; };
-		A007C5911A0F359100DCFE72 /* KDTestCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDTestCommand.h; sourceTree = "<group>"; };
-		A007C5921A0F359100DCFE72 /* KDTestCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDTestCommand.m; sourceTree = "<group>"; };
-		A007C5931A0F359100DCFE72 /* WSBaseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseCommand.h; sourceTree = "<group>"; };
-		A007C5941A0F359100DCFE72 /* WSBaseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseCommand.m; sourceTree = "<group>"; };
 		A007C5961A0F359100DCFE72 /* SHLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLog.h; sourceTree = "<group>"; };
 		A007C5971A0F359100DCFE72 /* SHLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLogManager.h; sourceTree = "<group>"; };
 		A007C5981A0F359100DCFE72 /* SHLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLogManager.m; sourceTree = "<group>"; };
-		A007C59A1A0F359100DCFE72 /* AFHTTPRequestOperation+QMEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperation+QMEX.h"; sourceTree = "<group>"; };
-		A007C59B1A0F359100DCFE72 /* AFHTTPRequestOperation+QMEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperation+QMEX.m"; sourceTree = "<group>"; };
-		A007C59C1A0F359100DCFE72 /* SHNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkManager.h; sourceTree = "<group>"; };
-		A007C59D1A0F359100DCFE72 /* SHNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetworkManager.m; sourceTree = "<group>"; };
 		A007C59F1A0F359100DCFE72 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 		A007C5A01A0F359100DCFE72 /* SHDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDefine.h; sourceTree = "<group>"; };
 		A007C5A11A0F359100DCFE72 /* SHGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHGlobal.h; sourceTree = "<group>"; };
@@ -167,6 +159,15 @@
 		A007C5F21A0F3CAC00DCFE72 /* SHMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHMeVC.m; sourceTree = "<group>"; };
 		A007C5F51A0F44D200DCFE72 /* SHShareVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHShareVC.h; sourceTree = "<group>"; };
 		A007C5F61A0F44D200DCFE72 /* SHShareVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHShareVC.m; sourceTree = "<group>"; };
+		A007C5F81A0F50D600DCFE72 /* SHDataPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDataPort.h; sourceTree = "<group>"; };
+		A007C5F91A0F50D600DCFE72 /* SHDataPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDataPort.m; sourceTree = "<group>"; };
+		A09BE5701A0F5298003CBACE /* SHDataUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDataUrl.h; sourceTree = "<group>"; };
+		A09BE5721A0F536D003CBACE /* SMPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPageControl.h; sourceTree = "<group>"; };
+		A09BE5731A0F536D003CBACE /* SMPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPageControl.m; sourceTree = "<group>"; };
+		A09BE5741A0F536D003CBACE /* SHCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCycleScrollView.h; sourceTree = "<group>"; };
+		A09BE5751A0F536D003CBACE /* SHCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCycleScrollView.m; sourceTree = "<group>"; };
+		A09BE5781A0F539E003CBACE /* UIImageView+SHWebImageAndCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SHWebImageAndCache.h"; sourceTree = "<group>"; };
+		A09BE5791A0F539E003CBACE /* UIImageView+SHWebImageAndCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SHWebImageAndCache.m"; sourceTree = "<group>"; };
 		EB1E1B2F7B6776860E117086 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F3BDF93CB66D98A0CD211B0F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -296,6 +297,8 @@
 				A007C53E1A0F359100DCFE72 /* UIView+Common.m */,
 				A007C53F1A0F359100DCFE72 /* SHBlockAdditions.h */,
 				A007C5401A0F359100DCFE72 /* SHCategory.h */,
+				A09BE5781A0F539E003CBACE /* UIImageView+SHWebImageAndCache.h */,
+				A09BE5791A0F539E003CBACE /* UIImageView+SHWebImageAndCache.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 		A007C5411A0F359100DCFE72 /* threeLib */ = {
 			isa = PBXGroup;
 			children = (
+				A09BE5711A0F536D003CBACE /* CycleScrollView */,
 			);
 			path = threeLib;
 			sourceTree = "<group>";
@@ -427,46 +431,10 @@
 		A007C58C1A0F359100DCFE72 /* data */ = {
 			isa = PBXGroup;
 			children = (
-				A007C58D1A0F359100DCFE72 /* Command */,
 				A007C5951A0F359100DCFE72 /* log */,
 				A007C5991A0F359100DCFE72 /* Network */,
 			);
 			path = data;
-			sourceTree = "<group>";
-		};
-		A007C58D1A0F359100DCFE72 /* Command */ = {
-			isa = PBXGroup;
-			children = (
-				A007C58E1A0F359100DCFE72 /* output */,
-				A007C5901A0F359100DCFE72 /* portDirectory */,
-				A007C5931A0F359100DCFE72 /* WSBaseCommand.h */,
-				A007C5941A0F359100DCFE72 /* WSBaseCommand.m */,
-			);
-			path = Command;
-			sourceTree = "<group>";
-		};
-		A007C58E1A0F359100DCFE72 /* output */ = {
-			isa = PBXGroup;
-			children = (
-				A007C58F1A0F359100DCFE72 /* unit */,
-			);
-			path = output;
-			sourceTree = "<group>";
-		};
-		A007C58F1A0F359100DCFE72 /* unit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = unit;
-			sourceTree = "<group>";
-		};
-		A007C5901A0F359100DCFE72 /* portDirectory */ = {
-			isa = PBXGroup;
-			children = (
-				A007C5911A0F359100DCFE72 /* KDTestCommand.h */,
-				A007C5921A0F359100DCFE72 /* KDTestCommand.m */,
-			);
-			path = portDirectory;
 			sourceTree = "<group>";
 		};
 		A007C5951A0F359100DCFE72 /* log */ = {
@@ -482,10 +450,9 @@
 		A007C5991A0F359100DCFE72 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				A007C59A1A0F359100DCFE72 /* AFHTTPRequestOperation+QMEX.h */,
-				A007C59B1A0F359100DCFE72 /* AFHTTPRequestOperation+QMEX.m */,
-				A007C59C1A0F359100DCFE72 /* SHNetworkManager.h */,
-				A007C59D1A0F359100DCFE72 /* SHNetworkManager.m */,
+				A007C5F81A0F50D600DCFE72 /* SHDataPort.h */,
+				A007C5F91A0F50D600DCFE72 /* SHDataPort.m */,
+				A09BE5701A0F5298003CBACE /* SHDataUrl.h */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -561,6 +528,17 @@
 				A007C5F61A0F44D200DCFE72 /* SHShareVC.m */,
 			);
 			path = share;
+			sourceTree = "<group>";
+		};
+		A09BE5711A0F536D003CBACE /* CycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A09BE5721A0F536D003CBACE /* SMPageControl.h */,
+				A09BE5731A0F536D003CBACE /* SMPageControl.m */,
+				A09BE5741A0F536D003CBACE /* SHCycleScrollView.h */,
+				A09BE5751A0F536D003CBACE /* SHCycleScrollView.m */,
+			);
+			path = CycleScrollView;
 			sourceTree = "<group>";
 		};
 		D00D10D8C62D7FBE640EB001 /* Frameworks */ = {
@@ -719,24 +697,24 @@
 				A007C5C71A0F359100DCFE72 /* SHBaseVC.m in Sources */,
 				A007C5B91A0F359100DCFE72 /* NSArray+safe.m in Sources */,
 				A007C50A1A0F330700DCFE72 /* AppDelegate.m in Sources */,
+				A007C5FA1A0F50D600DCFE72 /* SHDataPort.m in Sources */,
 				A007C5BF1A0F359100DCFE72 /* NSString+safe.m in Sources */,
-				A007C5D51A0F359100DCFE72 /* SHNetworkManager.m in Sources */,
 				A007C5C01A0F359100DCFE72 /* UITableView+safe.m in Sources */,
 				A007C5B51A0F359100DCFE72 /* UILabel+QMTitle.m in Sources */,
 				A007C5C41A0F359100DCFE72 /* MLNavigationController.m in Sources */,
 				A007C5EA1A0F3C8D00DCFE72 /* SHFindVC.m in Sources */,
 				A007C5C51A0F359100DCFE72 /* SHBaseNC.m in Sources */,
-				A007C5D21A0F359100DCFE72 /* WSBaseCommand.m in Sources */,
 				A007C5F71A0F44D200DCFE72 /* SHShareVC.m in Sources */,
 				A007C5BE1A0F359100DCFE72 /* NSObject+swizzle.m in Sources */,
+				A09BE5771A0F536D003CBACE /* SHCycleScrollView.m in Sources */,
 				A007C5BC1A0F359100DCFE72 /* NSMutableDictionary+safe.m in Sources */,
-				A007C5D11A0F359100DCFE72 /* KDTestCommand.m in Sources */,
 				A007C5B41A0F359100DCFE72 /* UIImage+Category.m in Sources */,
+				A09BE5761A0F536D003CBACE /* SMPageControl.m in Sources */,
 				A007C5C31A0F359100DCFE72 /* LeveyTabBarController.m in Sources */,
-				A007C5D41A0F359100DCFE72 /* AFHTTPRequestOperation+QMEX.m in Sources */,
 				A007C5F01A0F3CA300DCFE72 /* SHHotVC.m in Sources */,
 				A007C5D91A0F359100DCFE72 /* SHSystemValue.m in Sources */,
 				A007C5B01A0F359100DCFE72 /* UIActionSheet+MKBlockAdditions.m in Sources */,
+				A09BE57A1A0F539E003CBACE /* UIImageView+SHWebImageAndCache.m in Sources */,
 				A007C5BD1A0F359100DCFE72 /* NSNumber+safe.m in Sources */,
 				A007C5B61A0F359100DCFE72 /* UIView+Common.m in Sources */,
 				A007C5B81A0F359100DCFE72 /* NSObject+BeeNotification.m in Sources */,

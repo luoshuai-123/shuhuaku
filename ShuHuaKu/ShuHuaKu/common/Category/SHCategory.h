@@ -10,3 +10,4 @@
 #import "NSAttributedString+QMUI.h"
 #import "SHBlockAdditions.h"//
 #import "NSString+UI.h"
+#import "UIImageView+SHWebImageAndCache.h"

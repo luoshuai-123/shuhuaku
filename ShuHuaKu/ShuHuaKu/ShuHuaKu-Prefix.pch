@@ -18,4 +18,5 @@
 #import "SHGlobal.h"
 #import "SHTools.h"
 #import "SHCategory.h"
+#import "SHDataUrl.h"
 #endif

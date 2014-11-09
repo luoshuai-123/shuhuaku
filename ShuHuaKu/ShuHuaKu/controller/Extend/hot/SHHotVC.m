@@ -7,12 +7,31 @@
 //
 
 #import "SHHotVC.h"
-
-@interface SHHotVC ()
-
+#import "SHDataPort.h"
+#import "SHCycleScrollView.h"
+@interface SHHotVC ()<UITableViewDataSource,UITableViewDelegate>
+@property (nonatomic, strong) UITableView *hotListView;
+@property (nonatomic, strong) SHCycleScrollView *cycleScroller;
 @end
 
 @implementation SHHotVC
+- (UITableView *)hotListView{
+    if (_hotListView) {
+        return _hotListView;
+    }
+    _hotListView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    [_hotListView setDelegate:self];
+    [_hotListView setDataSource:self];
+    [_hotListView setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
+    [_hotListView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
+    return _hotListView;
+}
+- (SHCycleScrollView *)cycleScroller{
+    if (_cycleScroller) {
+        return _cycleScroller;
+    }
+    return _cycleScroller;
+}
 - (instancetype)init{
     self = [super init];
     if (self) {
@@ -20,10 +39,53 @@
     }
     return self;
 }
+- (void)loadchangeImage{
+    [SHDataPort GET:URL_getChangeImg globalTimelinePostsWithBlock:^(NSDictionary *output, NSError *error) {
+        
+    }];
+    
+}
+- (void)_setup{
+    [self.view addSubview:self.hotListView];
+    [self.hotListView setTableHeaderView:self.cycleScroller];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self loadchangeImage];
+    
 }
+
+
+#pragma mark - UITableViewDataSource
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 2;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 1;
+}
+
+#pragma mark - UITableViewDelegate
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    UITableViewCell * cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:NSStringFromClass([UITableViewCell class])];
+
+    return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 4) {
+        return 150;
+    }
+    return 50;
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
