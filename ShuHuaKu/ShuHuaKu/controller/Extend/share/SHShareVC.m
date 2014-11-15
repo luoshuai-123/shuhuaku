@@ -39,9 +39,21 @@
     NSDictionary *dict1 = NSDictionaryOfVariableBindings(_dismissButton);
     NSString *vfl = @"H:|-[_dismissButton]-|";
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:vfl options:0 metrics:nil views:dict1]];
+//
+//    NSString *vfl1 = @"V:|-400-[_dismissButton]-0-|";
+//    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:vfl1 options:0 metrics:nil views:dict1]];
     
-    NSString *vfl1 = @"V:|-400-[_dismissButton]-0-|";
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:vfl1 options:0 metrics:nil views:dict1]];
+    //距离底部20单位
+    //注意NSLayoutConstraint创建的constant是加在toItem参数的，所以需要-20。
+    [self.view addConstraint:[NSLayoutConstraint
+                              constraintWithItem:self.dismissButton
+                              attribute:NSLayoutAttributeBottom
+                              relatedBy:NSLayoutRelationEqual
+                              toItem:self.view
+                              attribute:NSLayoutAttributeBottom
+                              multiplier:1
+                              constant:-20]];
+    
 }
 
 

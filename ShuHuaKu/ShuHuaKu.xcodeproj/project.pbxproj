@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9974FCDABFAED36A478FF8C2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BDF93CB66D98A0CD211B0F /* libPods.a */; };
+		A0079D411A17323D00B919D5 /* SHHotView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0079D401A17323D00B919D5 /* SHHotView.m */; };
 		A007C5071A0F330700DCFE72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5061A0F330700DCFE72 /* main.m */; };
 		A007C50A1A0F330700DCFE72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A007C5091A0F330700DCFE72 /* AppDelegate.m */; };
 		A007C5121A0F330700DCFE72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A007C5111A0F330700DCFE72 /* Images.xcassets */; };
@@ -53,6 +54,8 @@
 		A09BE5761A0F536D003CBACE /* SMPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A09BE5731A0F536D003CBACE /* SMPageControl.m */; };
 		A09BE5771A0F536D003CBACE /* SHCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A09BE5751A0F536D003CBACE /* SHCycleScrollView.m */; };
 		A09BE57A1A0F539E003CBACE /* UIImageView+SHWebImageAndCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A09BE5791A0F539E003CBACE /* UIImageView+SHWebImageAndCache.m */; };
+		A09BE5851A0F5DB5003CBACE /* SHHotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A09BE5841A0F5DB5003CBACE /* SHHotModel.m */; };
+		A09BE5881A0F5E42003CBACE /* SHSHHotVM.m in Sources */ = {isa = PBXBuildFile; fileRef = A09BE5871A0F5E42003CBACE /* SHSHHotVM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,8 @@
 
 /* Begin PBXFileReference section */
 		54F0F40714D2A539D7C42614 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A0079D3F1A17323D00B919D5 /* SHHotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHotView.h; sourceTree = "<group>"; };
+		A0079D401A17323D00B919D5 /* SHHotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHotView.m; sourceTree = "<group>"; };
 		A007C5011A0F330700DCFE72 /* ShuHuaKu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuHuaKu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A007C5051A0F330700DCFE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A007C5061A0F330700DCFE72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -168,6 +173,10 @@
 		A09BE5751A0F536D003CBACE /* SHCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCycleScrollView.m; sourceTree = "<group>"; };
 		A09BE5781A0F539E003CBACE /* UIImageView+SHWebImageAndCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SHWebImageAndCache.h"; sourceTree = "<group>"; };
 		A09BE5791A0F539E003CBACE /* UIImageView+SHWebImageAndCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SHWebImageAndCache.m"; sourceTree = "<group>"; };
+		A09BE5831A0F5DB5003CBACE /* SHHotModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHotModel.h; sourceTree = "<group>"; };
+		A09BE5841A0F5DB5003CBACE /* SHHotModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHotModel.m; sourceTree = "<group>"; };
+		A09BE5861A0F5E42003CBACE /* SHSHHotVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSHHotVM.h; sourceTree = "<group>"; };
+		A09BE5871A0F5E42003CBACE /* SHSHHotVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSHHotVM.m; sourceTree = "<group>"; };
 		EB1E1B2F7B6776860E117086 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F3BDF93CB66D98A0CD211B0F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -198,6 +207,15 @@
 				EB1E1B2F7B6776860E117086 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0079D3E1A17322C00B919D5 /* ViewS */ = {
+			isa = PBXGroup;
+			children = (
+				A0079D3F1A17323D00B919D5 /* SHHotView.h */,
+				A0079D401A17323D00B919D5 /* SHHotView.m */,
+			);
+			name = ViewS;
 			sourceTree = "<group>";
 		};
 		A007C4F81A0F330700DCFE72 = {
@@ -431,6 +449,7 @@
 		A007C58C1A0F359100DCFE72 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				A09BE5821A0F5DAD003CBACE /* model */,
 				A007C5951A0F359100DCFE72 /* log */,
 				A007C5991A0F359100DCFE72 /* Network */,
 			);
@@ -506,8 +525,11 @@
 		A007C5E01A0F3C3200DCFE72 /* hot */ = {
 			isa = PBXGroup;
 			children = (
+				A0079D3E1A17322C00B919D5 /* ViewS */,
 				A007C5EE1A0F3CA300DCFE72 /* SHHotVC.h */,
 				A007C5EF1A0F3CA300DCFE72 /* SHHotVC.m */,
+				A09BE5861A0F5E42003CBACE /* SHSHHotVM.h */,
+				A09BE5871A0F5E42003CBACE /* SHSHHotVM.m */,
 			);
 			path = hot;
 			sourceTree = "<group>";
@@ -539,6 +561,15 @@
 				A09BE5751A0F536D003CBACE /* SHCycleScrollView.m */,
 			);
 			path = CycleScrollView;
+			sourceTree = "<group>";
+		};
+		A09BE5821A0F5DAD003CBACE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A09BE5831A0F5DB5003CBACE /* SHHotModel.h */,
+				A09BE5841A0F5DB5003CBACE /* SHHotModel.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		D00D10D8C62D7FBE640EB001 /* Frameworks */ = {
@@ -706,9 +737,11 @@
 				A007C5C51A0F359100DCFE72 /* SHBaseNC.m in Sources */,
 				A007C5F71A0F44D200DCFE72 /* SHShareVC.m in Sources */,
 				A007C5BE1A0F359100DCFE72 /* NSObject+swizzle.m in Sources */,
+				A09BE5881A0F5E42003CBACE /* SHSHHotVM.m in Sources */,
 				A09BE5771A0F536D003CBACE /* SHCycleScrollView.m in Sources */,
 				A007C5BC1A0F359100DCFE72 /* NSMutableDictionary+safe.m in Sources */,
 				A007C5B41A0F359100DCFE72 /* UIImage+Category.m in Sources */,
+				A09BE5851A0F5DB5003CBACE /* SHHotModel.m in Sources */,
 				A09BE5761A0F536D003CBACE /* SMPageControl.m in Sources */,
 				A007C5C31A0F359100DCFE72 /* LeveyTabBarController.m in Sources */,
 				A007C5F01A0F3CA300DCFE72 /* SHHotVC.m in Sources */,
@@ -722,6 +755,7 @@
 				A007C5ED1A0F3C9600DCFE72 /* SHHomeVC.m in Sources */,
 				A007C5071A0F330700DCFE72 /* main.m in Sources */,
 				A007C5BA1A0F359100DCFE72 /* NSDictionary+safe.m in Sources */,
+				A0079D411A17323D00B919D5 /* SHHotView.m in Sources */,
 				A007C5DB1A0F359100DCFE72 /* SHBaseView.m in Sources */,
 				A007C5F31A0F3CAC00DCFE72 /* SHMeVC.m in Sources */,
 				A007C5C61A0F359100DCFE72 /* SHBaseTB.m in Sources */,
@@ -832,7 +866,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "ShuHuaKu/ShuHuaKu-Prefix.pch";
 				INFOPLIST_FILE = ShuHuaKu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -846,7 +880,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "ShuHuaKu/ShuHuaKu-Prefix.pch";
 				INFOPLIST_FILE = ShuHuaKu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

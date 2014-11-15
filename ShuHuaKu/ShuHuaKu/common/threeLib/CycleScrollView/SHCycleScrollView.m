@@ -101,7 +101,7 @@
 }
 
 - (void)updateView:(NSArray *)pictureArray{
-    if ([pictureArray count] <= 0) {
+    if (pictureArray && [pictureArray count] <= 0) {
         return;
     }
     [self.scrollView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
